@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+#tituloProyecto {
+	width: 80%;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 50px;
+	border-bottom: 5px solid  #d1d1d1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#tituloProyecto h1{
+	margin-left: 40px;
+	color: white;
+	font-family:'Lato', sans-serif;
+	font-size: 45px;
+}
+
+#contenidoProyecto{
+	width: 70%;
+	height: 400px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+}
+
+#contenidoProyecto h1 {
+	color: black;
+	margin-left: 40px;
+	font-size: 28px;
+	font-family: 'Lato', sans-serif;
+}
+
+#contenidoProyecto p{
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size: 20px;
+	margin-left: 40px;
+	text-align: justify;
+}
+
+#panelFecha{
+ display: flex;
+ position: relative;
+ width: 90%;
+ margin: 0 auto;
+ flex-direction: column;
+ border-radius: 20px;
+}
+#fecha{
+	display: flex;
+	position: relative;
+	align-items: flex-start;
+	text-align: left;
+	color: white;
+	height: 70px;
+}
+#fecha h5{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin-left: 20px;
+}
+#noticiaFecha{
+	display: flex;
+	position:  relative;
+}
+#noticiaFecha p{
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	text-align: justify;
+	padding-right: 40px;
+}

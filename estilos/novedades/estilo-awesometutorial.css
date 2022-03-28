@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+
+#panarticulo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 85%;
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+#panarticulo h1{
+  margin-left: 30px;
+  font-family:'PT Sans', sans-serif;
+  color: black;
+}
+
+#panarticulo p{
+  color: white;
+  width: 100%;
+  text-align: justify;
+  margin-left: 30px;
+ font-family: 'Hubballi', cursive;
+  font-size: 25px;
+}
+
+#indice{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+  height: 300px;
+  background-color: #242827;
+  border-radius: 20px 20px 20px 20px;
+  transition-property: box-shadow, transform;
+  transition-duration: .2s;
+}
+
+#indice:hover{
+  box-shadow: 10px 10px  white;
+  transform: scale(0.96);
+}
+
+#indice h1{
+  position: relative;
+  color: white;
+  align-self: center;
+  font-family:'PT Sans', sans-serif;
+}
+
+#indice ul li{
+  display: flex;
+  flex-direction: column;
+}
+
+#indice ul li a {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: white;
+  transition-property: color;
+  transition-duration: .2s;
+}
+
+#indice ul li a:hover{
+  color: #8e44ad;
+  cursor: pointer;
+}
+
+#comunidad {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 90%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 14px;
+}
+
+#bAyudar{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 94%;
+  height: 45%;
+  background-color:   #474747   ;
+  color: white;
+  border-color:  #727373;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  transition-property: background-color;
+  transition-duration: .8s;
+}
+
+#bAyudar:hover {
+  background-color: #242827;
+}
+
+#bAyudar a{
+  color: white;
+  text-decoration: none;
+  text-align: justify;
+  margin-left: 40px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  transition-property: color;
+  transition-duration: .2s;
+}
+
+#bAyudar a:hover{
+  color: #8e44ad  ;
+  cursor: pointer;
+}
+
+#logoAyudar {
+  width: 110px;
+  height: 100px;
+}
+
+#panTituloArticulo{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 89%;
+  margin-top: 60px;
+}
+
+#tituloArticulo{
+  display: flex;
+  color:white;
+  margin-top: 40px;
+  font-family:'PT Sans', sans-serif;
+  font-size: 70px;
+}

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+#panFooter{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: space-between;
+  background-color:  #242827 ;
+  right: 0;
+  left: 0;
+}
+#publicidadProyectos{
+  display: flex;
+  position: relative;
+  background-color:  #8e44ad ;
+  width: 80%;
+  height: 170px;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  border-radius: 10px;
+  transition-property: box-shadow, transform;
+  transition-duration: .2s;
+}
+
+#publicidadProyectos:hover{
+  box-shadow: 10px 10px white;
+  transform: scale(0.96);
+}
+
+#bMaspublicida{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  margin-right:  50px;
+  height: 50px;
+  background-color: #242827;
+  color: white;
+  border-color:#242827;
+  border-radius: 5px;
+}
+
+#bMaspublicida:hover{
+  cursor: pointer;
+  border-color: white;
+  background-color: white;
+  color: black;
+}
+
+#publicidadProyectos h5{
+  color: white;
+  margin-right: 10%;
+  margin-left: 50px;
+  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+}
+
+#itemsFooter{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 220px;
+  margin:0 auto;
+  margin-bottom: 20px;
+}
+
+#itemLogo{
+  width: 20%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#itemLogo img{
+  width: 170px;
+  height: 37px;
+}
+#itemLogo p{
+  color:white;
+}
+
+#itemClientes{
+  width: 20%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-left: 30px;
+}
+#tituloItem{
+  display: flex;
+  align-self: flex-start;
+  margin-left: 20px;
+  font-weight: bold;
+  color:white;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  margin-top: 44px;
+}
+
+#itemClientes #itemOpciones{
+  color:white;
+  display: flex;
+  align-self: stretch;
+  margin-top: 10px;
+  font-size: 15px;
+  margin-left: 35px;
+  font-family: 'Lato', sans-serif;
+  transition-property: color;
+  transition-duration: .2s;
+}
+#itemClientes #itemOpciones:hover{
+  color: #8e44ad;
+  cursor: pointer;
+}
+
+#itemRedesSociales{
+  width: 30%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-left: 30px;
+}
+
+#itemRedesSociales #iconoFacebook{
+  transition-property: transform,filter;
+  transition-duration: .4s;
+}
+
+#itemRedesSociales #iconoFacebook:hover{
+  cursor: pointer;
+  transform: scale(0.8);
+  content: url("../imgs/icono-facebook-hover.png");
+}
+
+#itemRedesSociales #iconoTwitter{
+  transition-property: transform,filter;
+  transition-duration: .4s;
+}
+
+#itemRedesSociales #iconoTwitter:hover{
+  cursor: pointer;
+  transform: scale(0.8);
+  content: url("../imgs/icon-twitter-hover.png");
+}
+
+#itemRedesSociales #iconoMastodon{
+  transition-property: transform,filter;
+  transition-duration: .4s;
+}
+
+#itemRedesSociales #iconoMastodon:hover{
+  cursor: pointer;
+  transform: scale(0.8);
+  content: url("../imgs/icono-mastodon-hover.png");
+}
