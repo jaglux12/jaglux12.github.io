@@ -104,17 +104,23 @@
 	align-items: center;
 	flex-direction: column;
 	margin-right: 50px;
-	background-color: red;
 	height: 85%;
 	width: 300px;
+	transition-duration: .5s;
+	transition-property: transform;
+}
+
+#itemPc:hover{
+		transform: scale(0.97);
 }
 
 #itemPc p{
 	color: white;
+	text-align: center;
 	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
 }
 
 #logoPc{
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
