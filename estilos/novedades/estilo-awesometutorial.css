@@ -18,8 +18,10 @@
 
 #panarticulo h1{
   margin-left: 30px;
+  font-size: 25px;
   font-family:'PT Sans', sans-serif;
   color: black;
+  border-bottom: 1px solid black;
 }
 
 #panarticulo p{
