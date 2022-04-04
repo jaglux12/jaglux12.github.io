@@ -33,6 +33,15 @@
   font-size: 25px;
 }
 
+#panarticulo li{
+  color: white;
+  width: 100%;
+  text-align: justify;
+  margin-left: 30px;
+ font-family: 'Hubballi', cursive;
+  font-size: 25px;
+}
+
 #indice{
   display: flex;
   flex-direction: column;
