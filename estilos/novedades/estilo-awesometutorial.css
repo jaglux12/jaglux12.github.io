@@ -27,9 +27,19 @@
 #panarticulo h4{
   margin-left: 30px;
   font-size: 22px;
-  margin-top: 20px;
   font-family:'PT Sans', sans-serif;
   color: black;
+}
+
+#panarticulo h4 a{
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 22px;
+  font-family:'PT Sans', sans-serif;
+  color: gray;
+}
+#panarticulo h4 a:hover{
+  color: #8e44ad;
 }
 
 #panarticulo img{
