@@ -1,0 +1,12 @@
+#codigoeditor {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 80px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  position: relative;
+  margin-top: 30px;
+  background-color: #242827;
+  border-radius: 10px 10px 10px 10px;
+}
