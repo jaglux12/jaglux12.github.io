@@ -51,30 +51,37 @@
 
       <p>
           &nbsp&nbsp&nbsp&nbspAntes de empezar con el artículo, quiero mencionar unas pautas generales
-          para tener en cuenta al momento de analizar la información. <label style="color: black;font-weight: bold;">Primero</label>, debemos aceptar que existen
-          diferentes formas de realizar  los pasos del artículo, en dichos casos, es necesario reconocer las
-          posibles variables y compartirlas por medio de mensajes a nuestro correo electrónico. <label style="color: black;font-weight: bold;">Segundo</label>, la
-          información compartida está sujeta a cambios, que en mayor o menor medida pueden afectar a nuestro
-          artículo, le agradeceremos encarecidamente que nos ayuden a mantenerla actualizada.
-          <label style="color: black;font-weight: bold;">Tercero</label>, no pretendemos realizar una guía extensa de Awesome, pero creemos que es muy importante
-          conocer sus componentes y saber utilizarlos a nuestro favor. Es muy importante mencionar la necesidad tener ciertos conceptos previos para poder realizar
-          adecuadamente cada uno de los pasos explicados en este artículo. Sin nada más que decir, empezamos con
-          la guía.
+          para tener en cuenta al momento de analizar la información.
       </p>
 
+      <p>
+        &nbsp&nbsp&nbsp&nbsp<label style="color: black;font-weight: bold;">Primero</label>, debemos aceptar que existen
+        diferentes formas de realizar  los pasos del artículo, en dichos casos, es necesario reconocer las
+        posibles variables y compartirlas por medio de mensajes a nuestro correo electrónico.
+      </p>
+
+      <p>
+        &nbsp&nbsp&nbsp&nbsp<label style="color: black;font-weight: bold;">Segundo</label>, la
+        información compartida está sujeta a cambios, que en mayor o menor medida pueden afectar a nuestro
+        artículo, le agradeceremos encarecidamente que nos ayuden a mantenerla actualizada.
+      </p>
+
+      <p>
+        &nbsp&nbsp&nbsp&nbsp<label style="color: black;font-weight: bold;">Tercero</label>, no pretendemos realizar una guía extensa de Awesome, pero creemos que es muy importante
+        conocer sus componentes y saber utilizarlos a nuestro favor. Es muy importante mencionar la necesidad de tener ciertos conceptos previos para poder realizar
+        adecuadamente cada uno de los pasos explicados en este artículo. Sin nada más que decir, empezamos con
+        la guía.
+      </p>
 
     </div>
 
     <div id="indice">
         <h1>
-          Índice
+          Índice - Capítulo 1
         </h1>
         <ul>
           <li> <a href="#op1"> ¿Qué es AwesomeWM? </a> </li>
           <li> <a href="#op2"> Aplicativos </a> </li>
-          <li> <a href="#op3"> Configuración y descarga de AwesomeWM </a> </li>
-          <li> <a href="#op4"> Iniciar AwesomeWM</a> </li>
-          <li> <a href="#op5"> Primeros pasos</a> </li>
         </ul>
     </div>
 
@@ -187,185 +194,14 @@
         No es necesario crear una lista extensa.
       </p>
 
-      <h1 id="op3">
-        Configuración y descarga de AwesomeWM
-      </h1>
-
-      <p>
-        &nbsp&nbsp&nbsp&nbspAwesomeWM está disponible en la gran mayoría de distribuciones
-        basadas en GNU/Linux. En este caso lo instalaremos desde el
-        gestor de paquetes APT (Debian Bullseye). Si tienes otra distribución,
-        debes verificar la existencia de awesome en tu gestor de paquetes.
-        .Aclaro que necesito realizar un pequeño tutorial en la
-          instalación para Debian, ya que tenemos 2 formas de instalarlo
-          <label style="color:black;">(mediante la consola o por medio de una interfaz de usuario).</label>
-      </p>
-
-      <h4>
-        Instalación por consola (Debian)
-      </h4>
-
-      <p>
-        Primero ingresamos a nuestra terminal preferida. Yo utilizo xfce4-terminal.
-      </p>
-
-      <img src="../../imgs/novedades/awesome-tutorial/cap_terminal_xfce4.png">
-
-      <p>
-        Introducimos los siguientes comandos por consola. Las líneas que empiezan
-        con # son comentarios.
-      </p>
-
-    <div id="codigoeditor">
-        <p>
-          $sudo apt install awesome
-        </p>
-        <p>
-          #Verificamos que todo esté instalado correctamente.
-        </p>
-        <p>
-          $apt show awesome
-        </p>
-        <p>
-          #En todo caso, simplemente vemos la versión de AwesomeWM que tenemos instalada.
-        </p>
-        <p>
-          $awesome --version
-        </p>
-    </div>
-
-    <h4>
-      Instalación por Synaptic
-    </h4>
-
-    <img src="../../imgs/novedades/awesome-tutorial/cap_synaptic_0_edit.png">
-
-    <p>
-      Para empezar, primero hacemos clic en la sección de rojo llamada "Gestor de paquetes"
-      . Donde se iniciará el paquete llamado "Synaptic". Luego abrimos la sección de búsqueda
-      para ingresar "awesome". Es lo que está marcado con un cuadro de color rosado/rojo.
-    </p>
-
-    <img src="../../imgs/novedades/awesome-tutorial/cap_synaptic_1_edit.png">
-
-    <p>
-      Luego de abrir la sección de búsqueda, ingresamos "awesome" en el recuadro marcado.
-      Filtramos los resultados.
-    </p>
-
-    <img src="../../imgs/novedades/awesome-tutorial/cap_synaptic_2_edit.png">
-
-    <p>
-      Instalamos los paquetes marcados con rojo/rosa. Seleccionamos el paquete
-      y le damos clic derecho -> <label style="color:black;">"Marcar para instalar"</label> y luego seleccionamos el que corresponda
-       con el botón <label style="color:black;">"Marcar"</label>. Repetimos lo mismo con los demás y luego hacemos clic en el botón
-        superior que se titula <label style="color:black;">"Aplicar"</label>. Mostrará una lista de cambios a ejecutarse.
-        Aceptamos los paquetes.
-    </p>
-
-    <img src="../../imgs/novedades/awesome-tutorial/cap_synaptic_3_edit.png">
-
-    <p></p>
-
-    <img src="../../imgs/novedades/awesome-tutorial/cap_synaptic_4_edit.png">
-
-    <h1 id="op4">
-      Iniciar AwesomeWM
-    </h1>
-
-    <p>
-      Aunque parezca algo obvio para muchas personas, debo mecionar que AwesomeWM generalmente lo podemos
-      iniciar desde la pantalla de inicio de sesión. Donde ingresamos nuestro usuario y contraseña.
-      En caso de que ya estés dentro de una cuenta, simplemente cerramos la sesión y luego marcamos
-      con qué gestor queremos iniciar.
-    </p>
-
-    <img src="../../imgs/novedades/awesome-tutorial/cap_iniciarawesome_0.png">
-
-    <h1 id="op5">
-      Primeros pasos
-    </h1>
-
-    <img src="../../imgs/novedades/awesome-tutorial/cap_awesome_1_edit.png">
-
-    <p>
-      A simple vista podemos ver que gran parte de su interfaz gráfica posee ciertas
-      funcionalidades básicas como el idioma del teclado, la hora y la lista de
-       programas activos.
-     </p>
-
-     <p>
-       Debemos tener en cuenta que todos los botones y funcionalidades que podemos apreciar
-       en nuestra pantalla, son widgets. Cada uno de estos tiene una funcionalidad específica
-       y configuraciones particulares. Integrando cada uno de estos, podemos personalizar nuestro escritorio
-       a gusto personal. Como es un artículo corto, en este caso nos centramos en aspectos más generales y
-       simples de realizar.
-     </p>
-
-     <h4>
-       Lista de Widgets
-     </h4>
-
-     <div id="panelWidgets">
-
-       <div id="panelItem">
-          <div id="itemWidget">
-            <p>1</p>
-          </div>
-          <div id="explicacionWidget">
-            <p>En este panel se encuentran varios widgets com: texclock, layoutbox, keyboardlayout, etc.</p>
-          </div>
-       </div>
-
-       <div id="panelItem">
-          <div id="itemWidget">
-            <p>2</p>
-          </div>
-          <div id="explicacionWidget">
-            <p>Es donde se encuentran la lista de programas activos en pantalla, mostrando así su correspondiente ícono,
-            además del título de la ventana. También podemos encontrar un "prompt" que nos permite ejecutar programas.</p>
-          </div>
-       </div>
-
-       <div id="panelItem">
-          <div id="itemWidget">
-            <p>3</p>
-          </div>
-          <div id="explicacionWidget">
-            <p>Lista de pantallas activas, también llamadas "taglist". Mediante atajos nos podemos mover a traves de ellas
-            e incluso moverlas de lugar. Dichas pantallas nos permiten ejecutar ciertos programas en cada una de ellas,
-            permitiéndonos organizar mejor nuestro escritorio. </p>
-          </div>
-       </div>
-
-       <div id="panelItem">
-          <div id="itemWidget">
-            <p>4</p>
-          </div>
-          <div id="explicacionWidget">
-            <p>Aquí se encuentra el menu principal donde podemos ejecutar programas de forma interactiva (utilizando el mouse).
-            También accedemos a las configuraciones básicas de awesomewm (reiniciar wm, cerrar sesión, lista de atajos, etc). </p>
-          </div>
-       </div>
-
-       <div id="panelItem">
-          <div id="itemWidget">
-            <p>5</p>
-          </div>
-          <div id="explicacionWidget">
-            <p>Por último, encontramos botones básicos que nos permiten manejar la ventana activa en caso de no saber de memoria los atajos.
-            Se muestran los siguientes widgets: iconwidget, titlewidget, flotatigbutton, max/minwidget, closebutton, ontop, stickybutton.</p>
-          </div>
-       </div>
-
-     </div>
+      <div id="siguienteParte">
+        <button type="button" onclick="location.href='awesometutorial0.html'" name="masPublicidad" id="bSiguienteCapitulo">Siguiente capítulo</button>
+      </div>
 
      </div>
 
 
-    <div id="comunidad">
 
-    </div>
 
 
     <footer>

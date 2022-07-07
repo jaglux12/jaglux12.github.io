@@ -67,7 +67,7 @@
   display: flex;
   flex-direction: column;
   width: 85%;
-  height: 350px;
+  height: 200px;
   margin: 0 auto;
   margin-bottom: 30px;
   position: relative;
@@ -79,7 +79,7 @@
 }
 
 #indice:hover{
-  box-shadow: 10px 10px black;
+  box-shadow: 10px 10px GRAY;
   transform: scale(0.96);
 }
 
@@ -196,6 +196,7 @@
   display: flex;
   flex-direction: column;
   height: 700px;
+  margin-bottom: 50px;
 }
 
 #panelNumLista{
@@ -245,4 +246,35 @@
   height: 150px;
   justify-content: center;
   align-items: center;
+}
+
+#siguienteParte{
+  width: 100%;
+  height: 70px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 60px;
+}
+
+#bSiguienteCapitulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  margin-right:  50px;
+  height: 50px;
+  background-color: #242827;
+  color: white;
+  border-color:#242827;
+  border-radius: 5px;
+}
+
+#bSiguienteCapitulo:hover{
+  cursor: pointer;
+  border-color: white;
+  background-color: white;
+  color: black;
 }
