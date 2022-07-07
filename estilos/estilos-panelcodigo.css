@@ -11,3 +11,6 @@
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0 0 10px black;
 }
+#codigoeditor p{
+  margin-left: 50px;
+}

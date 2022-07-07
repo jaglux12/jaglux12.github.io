@@ -50,7 +50,6 @@
   color: white;
   width: 100%;
   text-align: justify;
-  margin-left: 30px;
  font-family: 'Hubballi', cursive;
   font-size: 25px;
 }
@@ -189,4 +188,61 @@
   font-family:'PT Sans', sans-serif;
   color: black;
   border-bottom: 1px solid black;
+}
+
+#panelWidgets{
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+}
+
+#panelNumLista{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#panelExplicacion{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#itemWidget{
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  border-radius: 10px;
+  margin: 10px;
+}
+#itemWidget p{
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 25px;
+}
+
+#explicacionWidget{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#panelItem{
+  display: flex;
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
 }
