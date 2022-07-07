@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../estilos/estilo-index.css">
+    <link rel="stylesheet" href="../../estilos/novedades/estilo-awesometutorial.css">
+    <link rel="stylesheet" href="../../estilos/estilos-footer.css">
+    <link rel="stylesheet" href="../../estilos/estilos-panelcodigo.css">
+    <title>PizzaCode</title>
+    <link rel="icon" href="../../imgs/pizza_logo.png">
+  </head>
+
+  <body>
+
+    <header>
+
+      <ul id="menuPrincipal">
+        <li><img src="../../imgs/logo.png" id="logo"></li>
+        <li id="menu">
+          <ul>
+            <li>
+              <a href="../../index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="../../proyectos/proyectos.html">Proyectos</a>
+            </li>
+            <li>
+              <a href="#">Contáctenos</a>
+            </li>
+            <li>
+              <a href="../../sobrenosotros/sobrenosotros.html">¿Quiénes somos?</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+    </header>
+
+    <div id="panTituloArticulo">
+      <h1 id = "tituloArticulo">
+          Tutorial básico de AwesomeWM
+      </h1>
+    </div>
+
+    <div id="panarticulo">
+
+      <h1>
+        Introducción
+      </h1>
+
+      <p>
+          &nbsp&nbsp&nbsp&nbspAntes de empezar con el artículo, quiero mencionar unas pautas generales
+          para tener en cuenta al momento de analizar la información.
+          <p>
+            &nbsp&nbsp&nbsp&nbsp<label style="color: black;font-weight: bold;">Primero</label>, debemos aceptar que existen
+            diferentes formas de realizar  los pasos del artículo, en dichos casos, es necesario reconocer las
+            posibles variables y compartirlas por medio de mensajes a nuestro correo electrónico.
+          </p>
+
+          <p>
+            &nbsp&nbsp&nbsp&nbsp<label style="color: black;font-weight: bold;">Segundo</label>, la
+            información compartida está sujeta a cambios, que en mayor o menor medida pueden afectar a nuestro
+            artículo, le agradeceremos encarecidamente que nos ayuden a mantenerla actualizada.
+          </p>
+
+          <p>
+            &nbsp&nbsp&nbsp&nbsp<label style="color: black;font-weight: bold;">Tercero</label>, no pretendemos realizar una guía extensa de Awesome, pero creemos que es muy importante
+            conocer sus componentes y saber utilizarlos a nuestro favor. Es muy importante mencionar la necesidad de tener ciertos conceptos previos para poder realizar
+            adecuadamente cada uno de los pasos explicados en este artículo. Sin nada más que decir, empezamos con
+            la guía.
+          </p>
+
+      </p>
+
+    </div>
+
+    <div id="indice">
+        <h1>
+          Índice - Capítulo 2
+        </h1>
+        <ul>
+          <li> <a href="#op3"> Configuración y descarga de AwesomeWM </a> </li>
+          <li> <a href="#op4"> Iniciar AwesomeWM</a> </li>
+        </ul>
+    </div>
+
+    <div id="panarticulo">
+
+      <h1 id="op3">
+        Configuración y descarga de AwesomeWM
+      </h1>
+
+      <p>
+        &nbsp&nbsp&nbsp&nbspAwesomeWM está disponible en la gran mayoría de distribuciones
+        basadas en GNU/Linux. En este caso lo instalaremos desde el
+        gestor de paquetes APT (Debian Bullseye). Si tienes otra distribución,
+        debes verificar la existencia de awesome en tu gestor de paquetes.
+        .Aclaro que necesito realizar un pequeño tutorial en la
+          instalación para Debian, ya que tenemos 2 formas de instalarlo
+          <label style="color:black;">(mediante la consola o por medio de una interfaz de usuario).</label>
+      </p>
+
+      <h4>
+        Instalación por consola (Debian)
+      </h4>
+
+      <p>
+        Primero ingresamos a nuestra terminal preferida. Yo utilizo xfce4-terminal.
+      </p>
+
+      <img src="../../imgs/novedades/awesome-tutorial/cap_terminal_xfce4.png">
+
+      <p>
+        Introducimos los siguientes comandos por consola. Las líneas que empiezan
+        con # son comentarios.
+      </p>
+
+    <div id="codigoeditor">
+        <p>
+          $sudo apt install awesome
+        </p>
+        <p>
+          #Verificamos que todo esté instalado correctamente.
+        </p>
+        <p>
+          $apt show awesome
+        </p>
+        <p>
+          #En todo caso, simplemente vemos la versión de AwesomeWM que tenemos instalada.
+        </p>
+        <p>
+          $awesome --version
+        </p>
+    </div>
+
+    <h4>
+      Instalación por Synaptic
+    </h4>
+
+    <img src="../../imgs/novedades/awesome-tutorial/cap_synaptic_0_edit.png">
+
+    <p>
+      Para empezar, primero hacemos clic en la sección de rojo llamada "Gestor de paquetes"
+      . Donde se iniciará el paquete llamado "Synaptic". Luego abrimos la sección de búsqueda
+      para ingresar "awesome". Es lo que está marcado con un cuadro de color rosado/rojo.
+    </p>
+
+    <img src="../../imgs/novedades/awesome-tutorial/cap_synaptic_1_edit.png">
+
+    <p>
+      Luego de abrir la sección de búsqueda, ingresamos "awesome" en el recuadro marcado.
+      Filtramos los resultados.
+    </p>
+
+    <img src="../../imgs/novedades/awesome-tutorial/cap_synaptic_2_edit.png">
+
+    <p>
+      Instalamos los paquetes marcados con rojo/rosa. Seleccionamos el paquete
+      y le damos clic derecho -> <label style="color:black;">"Marcar para instalar"</label> y luego seleccionamos el que corresponda
+       con el botón <label style="color:black;">"Marcar"</label>. Repetimos lo mismo con los demás y luego hacemos clic en el botón
+        superior que se titula <label style="color:black;">"Aplicar"</label>. Mostrará una lista de cambios a ejecutarse.
+        Aceptamos los paquetes.
+    </p>
+
+    <img src="../../imgs/novedades/awesome-tutorial/cap_synaptic_3_edit.png">
+
+    <p></p>
+
+    <img src="../../imgs/novedades/awesome-tutorial/cap_synaptic_4_edit.png">
+
+    <h1 id="op4">
+      Iniciar AwesomeWM
+    </h1>
+
+    <p>
+      Aunque parezca algo obvio para muchas personas, debo mecionar que AwesomeWM generalmente lo podemos
+      iniciar desde la pantalla de inicio de sesión. Donde ingresamos nuestro usuario y contraseña.
+      En caso de que ya estés dentro de una cuenta, simplemente cerramos la sesión y luego marcamos
+      con qué gestor queremos iniciar.
+    </p>
+
+    <img src="../../imgs/novedades/awesome-tutorial/cap_iniciarawesome_0.png">
+
+     <div id="siguienteParte">
+       <button type="button" name="masPublicidad" onclick="location.href='awesometutorial.html'" id="bMaspublicida">Anterior</button>
+       <button type="button" name="masPublicidad" onclick="location.href='awesometutorial1.html'" id="bMaspublicida">Siguiente</button>
+     </div>
+
+     </div>
+
+
+    <footer>
+
+      <div id="panFooter">
+        <div id="publicidadProyectos">
+           <h5>¿Quieres estar al tanto de nuevas noticias?<br>Inscríbete en nuestra lista de correos electrónicos.
+           </h5>
+            <button type="button" name="masPublicidad" id="bMaspublicida">Más información</button>
+        </div>
+        <div id="itemsFooter">
+          <div id="itemLogo">
+                <img src="../../imgs/logo.png" id="logoFooter">
+                <p>© 2022</p>
+          </div>
+
+          <div id="itemClientes">
+            <span id="tituloItem">Sobre nosotros</span>
+            <span id="itemOpciones">¿Quiénes somos?</span>
+            <span id="itemOpciones">Consultas</span>
+          </div>
+          <div id="itemClientes">
+            <span id="tituloItem">Más información</span>
+            <span id="itemOpciones">Términos y condiciones</span>
+            <span id="itemOpciones">Política y privacidad</span>
+          </div>
+          <div id="itemRedesSociales">
+            <span id="tituloItem">Redes Sociales</span>
+            <ul>
+              <li><img src="../../imgs/icono-facebook.png" id="iconoFacebook"></li>
+              <li><img src="../../imgs/icono-twitter.png" id="iconoTwitter"></li>
+              <li><img src="../../imgs/icono-mastodon.png" id="iconoMastodon"></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+  </body>
+
+</html>
