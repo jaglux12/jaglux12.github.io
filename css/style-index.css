@@ -7,8 +7,12 @@
 .titulo{
   font-family: 'Inconsolata', monospace;
   text-decoration: none;
-  font-size: 30px;
-   color:  #c1c1c1 ;
+  font-size: 25px;
+  color:  #c1c1c1 ;
+}
+
+.titulo:hover{
+  color:  #c1c1c1 ;
 }
 
 .itemsLista{
@@ -24,4 +28,11 @@
 .botonMas{
   width: 50px;
   height: 50px;
+}
+
+.tituloBlog{
+  font-family: 'Inconsolata', monospace;
+  text-decoration: none;
+  font-size: 18px;
+  color:  #c1c1c1 ;
 }
