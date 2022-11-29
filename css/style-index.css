@@ -36,3 +36,16 @@
   font-size: 18px;
   color:  #c1c1c1 ;
 }
+
+.subtituloBlog{
+  font-family: monospace;
+  text-decoration: none;
+  font-size: 17px;
+  color:  #c1c1c1 ;
+}
+
+.titulosSecciones{
+  font-family:'Inconsolata', monospace;
+  text-decoration: none;
+  color:   #93379c ;
+}
