@@ -81,3 +81,17 @@
 .itemsListaFooter:hover{
   color: #FDF7FF;
 }
+
+.bMostrarMas{
+  border-color:    #979497   ;
+  border-width: 1px;
+  background-color: transparent;
+  color:   #979497  ;
+  border-radius: 4px;
+  padding: 7px 10px;
+}
+
+.bMostrarMas:hover{
+  background-color: #979497;
+  color: #02101b;
+}
