@@ -22,7 +22,7 @@
 }
 
 .itemsLista:hover{
-  color: #FDF7FF
+  color: #FDF7FF;
 }
 
 .botonMas{
@@ -48,4 +48,30 @@
   font-family:'Inconsolata', monospace;
   text-decoration: none;
   color:   #93379c ;
+}
+
+.subtituloFecha{
+  font-family: monospace;
+  text-decoration: none;
+  font-size: 15px;
+  color:  #7f7f7f  ;
+}
+
+.tituloLink{
+  font-family:'Inconsolata', monospace;
+  text-decoration: none;
+  font-size: 15px;
+  text-decoration: underline;
+  color:   #b7b7b7   ;
+}
+
+.itemsListaFooter{
+  color:  #3e4144  ;
+  font-family: monospace;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+.itemsListaFooter:hover{
+  color: #FDF7FF;
 }
